@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+  }
+  #gamefield {
+    position: relative;
+    display: none;
+  }
+  .gem {
+    position: absolute;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  #marker {
+    width: 54px;
+    height: 54px;
+    border: 5px solid white;
+    position: absolute;
+    display: none;
+  }
+  .remove {
+    opacity: 0;
+  }
+  .fall {
+    position: absolute;
+  }
+  #start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+  }
+  #start-screen h1 {
+    margin-bottom: 20px;
+  }
+  #start-screen button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  #start-screen button:hover {
+    background-color: #0056b3;
+  }
+  
